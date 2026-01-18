@@ -1,0 +1,10 @@
+com/booker/api/client/PostClient.class
+com/booker/api/models/Address.class
+com/booker/api/models/Post$PostBuilder.class
+com/booker/api/models/Geo.class
+com/booker/api/models/Address$AddressBuilder.class
+com/booker/api/models/Company.class
+com/booker/api/models/User$UserBuilder.class
+com/booker/api/models/Post.class
+com/booker/api/models/User.class
+com/booker/api/client/UserClient.class

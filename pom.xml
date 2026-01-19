@@ -24,7 +24,6 @@
         <allure.version>2.25.0</allure.version>
         <jackson.version>2.16.1</jackson.version>
         <slf4j.version>1.7.36</slf4j.version>
-        <aspectj.version>1.9.21</aspectj.version>
     </properties>
 
     <!-- Lombok Snapshot Repository -->
@@ -119,17 +118,7 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                    <argLine>
-                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-                    </argLine>
                 </configuration>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.aspectj</groupId>
-                        <artifactId>aspectjweaver</artifactId>
-                        <version>${aspectj.version}</version>
-                    </dependency>
-                </dependencies>
             </plugin>
 
             <!-- Allure Maven Plugin -->
